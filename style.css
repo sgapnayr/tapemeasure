@@ -131,7 +131,7 @@
 }
 
 /* Media */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1028px) {
   .line {
     margin-left: 5%;
     height: 1vh;
@@ -195,5 +195,11 @@
     margin-right: 8%;
     background: black;
     opacity: 0.1;
+  }
+}
+
+@media screen and (max-height: 696px) {
+  #ruler-desc {
+    transform: translateY(200%);
   }
 }
