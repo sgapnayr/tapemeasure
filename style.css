@@ -42,8 +42,9 @@
   align-items: flex-start;
 }
 .number {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
   transform: translateX(45%);
+  opacity: 0.5;
 }
 #body {
   width: 100%;
