@@ -1,0 +1,199 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Main */
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(218, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-outline {
+  width: 100%;
+  height: 10.3vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-silver {
+  width: 1%;
+  height: 10.3vh;
+  background: rgb(131, 131, 131);
+}
+.big-lines {
+  width: 15%;
+  height: 10vh;
+  background: rgb(237, 217, 0) 10%;
+  margin: 0.5px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.number {
+  margin-top: 0.5rem;
+  transform: translateX(45%);
+}
+#body {
+  width: 100%;
+  height: 10vh;
+  background: rgb(225, 206, 0) 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ruler */
+#ruler-desc {
+  width: 100%;
+  height: 2rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+#lines-tiny {
+  width: 100%;
+  height: 8vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* background: rgb(237, 217, 0) 10%; */
+}
+.line {
+  height: 0.5vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line2 {
+  height: 2vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line3 {
+  height: 1vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line4 {
+  height: 2vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line5 {
+  height: 1vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line6 {
+  height: 2vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line7 {
+  height: 1vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line8 {
+  height: 2vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+.line9 {
+  height: 1vh;
+  width: 0.5px;
+  margin-right: 10%;
+  background: black;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+  .line {
+    margin-left: 5%;
+    height: 1vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line2 {
+    height: 2vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line3 {
+    height: 1vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line4 {
+    height: 2vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line5 {
+    height: 1vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line6 {
+    height: 2vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line7 {
+    height: 1vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line8 {
+    height: 2vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+  .line9 {
+    height: 1vh;
+    width: 0.5em;
+    margin-right: 8%;
+    background: black;
+    opacity: 0.1;
+  }
+}
