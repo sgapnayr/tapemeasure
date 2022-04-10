@@ -40,6 +40,7 @@
   display: flex;
   justify-content: start;
   align-items: flex-start;
+  overflow: hidden;
 }
 .number {
   margin-top: 0.25rem;
@@ -134,7 +135,7 @@
 /* Media */
 @media screen and (max-width: 1028px) {
   .line {
-    margin-left: 5%;
+    margin-left: -5%;
     height: 1vh;
     width: 0.5em;
     margin-right: 8%;
