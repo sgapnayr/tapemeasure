@@ -198,7 +198,7 @@
   }
 }
 
-@media screen and (max-height: 696px) {
+@media screen and (max-height: 628px) {
   #ruler-desc {
     transform: translateY(200%);
   }
